@@ -11,7 +11,5 @@ cask "deckle" do
 
   app "Deckle.app"
 
-  zap trash: [
-    "~/Library/Preferences/app.deckle.Deckle.plist",
-  ]
+  zap trash: "~/Library/Preferences/app.deckle.Deckle.plist"
 end
