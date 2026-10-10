@@ -5,7 +5,7 @@ cask "deckle" do
   url "https://github.com/Kelvanic/deckle/releases/download/v#{version}/Deckle-#{version}.dmg"
   name "Deckle"
   desc "Paper-grain texture overlay that makes your screen feel like paper"
-  homepage "https://github.com/Kelvanic/deckle"
+  homepage "https://kelvanic.com/products/deckle/"
 
   depends_on macos: :ventura
 
